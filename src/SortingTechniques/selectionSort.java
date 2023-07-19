@@ -11,6 +11,7 @@ public class selectionSort {
         int[] arr={5,4,3,2,1};
         selection(arr);
 
+
     }
 
     public static void selection(int[] arr) {
