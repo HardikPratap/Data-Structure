@@ -1,5 +1,7 @@
 package SortingTechniques;
 
+import java.util.Arrays;
+
 public class selectionSort {
     //    Basic idea:
 //    1:Loop in array
@@ -10,11 +12,10 @@ public class selectionSort {
         System.out.println("This is selection sort");
         int[] arr={5,4,3,2,1};
         selection(arr);
-
-
+        System.out.println(Arrays.toString(arr));
     }
 
-    public static void selection(int[] arr) {
+     static void selection(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             int last=arr.length-i-1;
             int maxNum=max(arr,0,last);
@@ -24,7 +25,7 @@ public class selectionSort {
 
     public static int max(int[] arr, int start, int last) {
         int max=start;
-        for (int j = start; j < last; j++) {
+        for (int j = start; j <= last; j++) {
             if(arr[j]>arr[max])
                 max=j;
         }
