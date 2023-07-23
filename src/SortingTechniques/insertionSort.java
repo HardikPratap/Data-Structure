@@ -11,6 +11,6 @@ public class insertionSort {
     }
 
     private static void insertion(int[] arr) {
-
+        System.out.println(arr);
     }
 }
