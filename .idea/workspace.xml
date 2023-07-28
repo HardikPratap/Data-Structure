@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e77b5ead-56ef-425b-940b-607e461c7bd8" name="Changes" comment="create insertion sort">
+    <list default="true" id="e77b5ead-56ef-425b-940b-607e461c7bd8" name="Changes" comment="commit insertion sort">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,6 +87,7 @@
       <updated>1689788988220</updated>
       <workItem from="1689788989563" duration="1001000" />
       <workItem from="1689925871019" duration="1267000" />
+      <workItem from="1690133799865" duration="314000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -144,7 +145,31 @@
       <option name="project" value="LOCAL" />
       <updated>1689928108008</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="main file- insertion sort">
+      <option name="closed" value="true" />
+      <created>1690133871106</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1690133871106</updated>
+    </task>
+    <task id="LOCAL-00009" summary="coomit insertion sort">
+      <option name="closed" value="true" />
+      <created>1690134047541</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690134047541</updated>
+    </task>
+    <task id="LOCAL-00010" summary="commit insertion sort">
+      <option name="closed" value="true" />
+      <created>1690134101924</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1690134101924</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +180,9 @@
     <MESSAGE value="selection sort" />
     <MESSAGE value="selection sort-update" />
     <MESSAGE value="create insertion sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="create insertion sort" />
+    <MESSAGE value="main file- insertion sort" />
+    <MESSAGE value="coomit insertion sort" />
+    <MESSAGE value="commit insertion sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit insertion sort" />
   </component>
 </project>

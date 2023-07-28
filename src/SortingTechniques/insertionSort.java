@@ -11,6 +11,19 @@ public class insertionSort {
     }
 
     private static void insertion(int[] arr) {
-        System.out.println(arr);
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i+1; j >0 ; j--) {
+                if(arr[j]<arr[j-1]){
+                    swap(arr[j],arr[j-1]);
+                }
+                else break;
+            }
+
+        }
     }
+    private static void swap(int first, int second) {
+
+    }
+
+
 }
