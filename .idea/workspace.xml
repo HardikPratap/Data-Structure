@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e77b5ead-56ef-425b-940b-607e461c7bd8" name="Changes" comment="update insertionSort.java">
+    <list default="true" id="e77b5ead-56ef-425b-940b-607e461c7bd8" name="Changes" comment="update bubble sort">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.bubbleSort">
+  <component name="RunManager" selected="Application.mergeSort">
     <configuration name="bubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SortingTechniques.bubbleSort" />
       <module name="Data-Structure" />
@@ -73,6 +73,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="mergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortingTechniques.mergeSort" />
+      <module name="Data-Structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SortingTechniques.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="selectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SortingTechniques.selectionSort" />
       <module name="Data-Structure" />
@@ -88,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.mergeSort" />
         <item itemvalue="Application.bubbleSort" />
         <item itemvalue="Application.insertionSort" />
         <item itemvalue="Application.selectionSort" />
@@ -106,7 +120,7 @@
       <workItem from="1689925871019" duration="1267000" />
       <workItem from="1690133799865" duration="314000" />
       <workItem from="1690564461509" duration="698000" />
-      <workItem from="1690794032163" duration="1254000" />
+      <workItem from="1690794032163" duration="4509000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -212,7 +226,23 @@
       <option name="project" value="LOCAL" />
       <updated>1690794182987</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="bubble sort - full code">
+      <option name="closed" value="true" />
+      <created>1690795583058</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1690795583058</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update bubble sort">
+      <option name="closed" value="true" />
+      <created>1690795652714</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1690795652714</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +259,8 @@
     <MESSAGE value="insertion sort function" />
     <MESSAGE value="swap function" />
     <MESSAGE value="update insertionSort.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="update insertionSort.java" />
+    <MESSAGE value="bubble sort - full code" />
+    <MESSAGE value="update bubble sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="update bubble sort" />
   </component>
 </project>
