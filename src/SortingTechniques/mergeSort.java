@@ -6,8 +6,8 @@ public class mergeSort {
     public static void main(String[] args) {
         System.out.println("This is Bubble sorting");
         int[] arr={5,4,3,2,1};
-        arr=merge(arr);
-        System.out.println(Arrays.toString(arr));
+        int[] ans=merge(arr);
+        System.out.println(Arrays.toString(ans));
     }
 
     public static int[] merge(int[] arr) {
@@ -16,7 +16,7 @@ public class mergeSort {
         int mid= arr.length/2;
 
         int[] left=merge(Arrays.copyOfRange(arr,0,mid));
-        int[] right=merge(Arrays.copyOfRange(arr,mid+1,arr.length));
+        int[] right=merge(Arrays.copyOfRange(arr,mid,arr.length));
 
         return mergeArr(left,right);
 
