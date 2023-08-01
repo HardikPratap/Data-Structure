@@ -3,6 +3,9 @@ package SortingTechniques;
 import java.util.Arrays;
 
 public class mergeSort {
+    //O(n log n)
+    //Divide & conquer
+    //Sort + merge
     public static void main(String[] args) {
         System.out.println("This is Bubble sorting");
         int[] arr={5,4,3,2,1};

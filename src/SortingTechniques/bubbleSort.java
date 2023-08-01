@@ -3,6 +3,9 @@ package SortingTechniques;
 import java.util.Arrays;
 
 public class bubbleSort {
+    //compare two elements
+    //put largest at the end in every loop
+    //o(n^2)
     public static void main(String[] args) {
         System.out.println("This is Bubble sorting");
         int[] arr={5,4,3,2,1};

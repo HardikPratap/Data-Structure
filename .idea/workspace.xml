@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e77b5ead-56ef-425b-940b-607e461c7bd8" name="Changes" comment="quick sort">
+    <list default="true" id="e77b5ead-56ef-425b-940b-607e461c7bd8" name="Changes" comment="quick sort complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortingTechniques/quickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingTechniques/quickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortingTechniques/bubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingTechniques/bubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortingTechniques/insertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingTechniques/insertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortingTechniques/mergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingTechniques/mergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortingTechniques/selectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingTechniques/selectionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +139,7 @@
       <workItem from="1690133799865" duration="314000" />
       <workItem from="1690564461509" duration="698000" />
       <workItem from="1690794032163" duration="5642000" />
-      <workItem from="1690878598769" duration="950000" />
+      <workItem from="1690878598769" duration="3233000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -282,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690878681640</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="quick sort complete">
+      <option name="closed" value="true" />
+      <created>1690879722245</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1690879722245</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,6 +315,7 @@
     <MESSAGE value="merge sort" />
     <MESSAGE value="update merge sort" />
     <MESSAGE value="quick sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="quick sort" />
+    <MESSAGE value="quick sort complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="quick sort complete" />
   </component>
 </project>

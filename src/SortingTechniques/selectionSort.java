@@ -7,6 +7,7 @@ public class selectionSort {
 //    1:Loop in array
 //    2:Get MAX number
 //    3:Swap Max number with last index
+//    o(n^2)
 
     public static void main(String[] args) {
         System.out.println("This is selection sort");
